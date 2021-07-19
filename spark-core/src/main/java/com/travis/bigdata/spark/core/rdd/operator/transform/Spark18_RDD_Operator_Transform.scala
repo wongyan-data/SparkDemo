@@ -3,6 +3,9 @@ package com.travis.bigdata.spark.core.rdd.operator.transform
 import org.apache.spark.rdd.RDD
 import org.apache.spark.{SparkConf, SparkContext}
 
+/**
+ *
+ */
 object Spark18_RDD_Operator_Transform {
   def main(args: Array[String]): Unit = {
     val conf: SparkConf  = new SparkConf().setAppName("RDD").setMaster("local[*]")
